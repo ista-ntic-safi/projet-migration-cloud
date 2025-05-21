@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISTA NTIC SAFI - Projet Migration Cloud</title>
+
+  <!-- Polices modernes -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #0b172a, #1e2a47, #294163);
+      color: #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 40px 20px;
+      overflow-x: hidden;
+    }
+
+    img {
+      max-width: 520px;
+      width: 90%;
+      height: auto;
+      margin-bottom: 30px;
+      border-radius: 18px;
+      box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+      cursor: pointer;
+      animation: floatGlow 6s ease-in-out infinite;
+    }
+    img:hover {
+      transform: scale(1.08) translateY(-10px);
+      box-shadow: 0 0 30px 10px rgba(0, 123, 255, 0.8);
+    }
+
+    @keyframes floatGlow {
+      0%, 100% {
+        transform: translateY(0);
+        box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+      }
+      50% {
+        transform: translateY(-8px);
+        box-shadow: 0 0 30px 8px rgba(0, 123, 255, 0.7);
+      }
+    }
+
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 5.5rem;
+      margin: 0 0 0.4em 0;
+      letter-spacing: 0.28em;
+      color: #00aaff;
+      text-shadow:
+        0 0 10px #00aaff,
+        0 0 20px #0088cc,
+        0 0 30px #006699;
+      user-select: none;
+    }
+
+    p {
+      font-size: 1.8rem;
+      max-width: 900px;
+      line-height: 1.7;
+      color: #c0d8f9;
+      margin-bottom: 3em;
+      padding: 0 20px;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 15px;
+      font-size: 1rem;
+      opacity: 0.55;
+      color: #7a8a99;
+      width: 100%;
+      text-align: center;
+      font-style: italic;
+      user-select: none;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 3rem;
+        letter-spacing: 0.15em;
+      }
+      p {
+        font-size: 1.1rem;
+        max-width: 100%;
+      }
+      img {
+        max-width: 90%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Image temporaire - remplace par ton logo local -->
+  <img src="Screenshot 2025-05-21 233547.png" alt="Logo ISTA NTIC SAFI" />
+
+  <h1>ISTA NTIC SAFI</h1>
+
+  <p>
+    Ce site a été migré vers le cloud pour montrer comment rendre un projet web accessible en ligne facilement. Hébergé avec Netlify.
+  </p>
+
+  <footer>
+    © 2025 ISTA NTIC SAFI | option systèmes et réseaux
+  </footer>
+
+</body>
+</html>
